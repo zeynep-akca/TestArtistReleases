@@ -65,11 +65,11 @@ I tested my code in a Windows virtual environment (python version 3).
 
 Please first install the requirements: 
 
-*pip install -r requirements.txt*
+```pip install -r requirements.txt```
 
 Then run the test using:
 
-*pytest test_ArtistReleases.py*
+```pytest test_ArtistReleases.py```
 
 The result will show up in the command promp. You can also see the logs in pytest.log file. For the csv files it should be outputted as list_of_releases_{artist name}.csv
 
